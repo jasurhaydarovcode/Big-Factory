@@ -1,0 +1,120 @@
+.bacraund__blac{
+    background-color: $black-0;
+    width: 100%;
+    height: 12vw;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    h4{
+        color: rgb(253, 207, 1);
+        margin: 1px;
+        position: relative;
+        margin-left: 80px;
+        bottom: 43px;
+        font-family: sans-serif;
+    }
+    h5{
+        color: #fdfbfb;
+        margin: 1px;
+        position: relative;
+        margin-left: 80px;
+        bottom: 43px;
+        font-family: sans-serif;
+    }
+    div{
+        width: 230px;
+        height: 50px;
+        padding-top: 55px;
+        font-family: sans-serif;
+    }
+}
+.bottom__mine{
+    background-color: rgba(32, 32, 32, 0.959);
+    width: 100%;
+    height: 6.5vw;  
+    display: inline-block;
+}
+.nice__mine{
+    text-align: center;
+    display: inline-block;
+    height: 10px;
+    padding-left: 80vh;
+    padding-top: 10px;
+    font-family: sans-serif;
+    h5{
+        display: inline-block;
+        color: #fdfbfb;
+        font-family: sans-serif;
+    }
+    h6{
+        display: inline-block;
+        font-family: sans-serif;
+    }
+    a{
+        color: #fdfbfb;
+        font-family: sans-serif;
+    }
+}
+@media(max-width:700px){
+    .bacraund__blac{
+        background-color: black;
+        display: grid;       
+        grid-template-rows: auto auto auto;
+        gap:1px;
+        width: 100%;
+        height: 52vw;
+        gap: 100px;
+        h4{
+            color: rgb(253, 207, 1);
+            margin: 1px;
+            position: relative;
+            margin-left: 80px;
+            bottom: 43px;
+        }
+        h5{
+            color: #fdfbfb;
+            margin: 1px;
+            position: relative;
+            margin-left: 80px;
+            bottom: 43px;
+        }
+        div{
+            width: 230px;
+            height: 50px;
+            padding-top: 55px;
+            margin-right: 400px;
+        }
+    }
+    .bottom__mine{
+        background-color: rgba(32, 32, 32, 0.959);
+        width: 100%;
+        height: 13vw;  
+        display: inline-block;
+    }
+    .nice__mine{
+        text-align: center;
+        display: inline-block;
+        height: 10px;
+        padding-left: 30vh;
+        padding-top: 30px;
+        h5{
+            display: inline-block;
+            margin: 1px;
+        }
+        h6{
+            display: inline-block;
+            margin: 1px;
+            font-family: sans-serif;
+        }
+    }
+     .imgs__2{
+     position: relative;
+     bottom: 20vw;
+    }
+    .imgs__3{
+    position: absolute;
+    bottom: 50vw;
+    margin-left: 30px;
+    z-index: 1;
+    }
+}

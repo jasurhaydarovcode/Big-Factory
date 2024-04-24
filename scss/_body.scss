@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// TODO: ================ Decaration ================
+
+// * ================ Selection ================
+*::selection{
+    background-color: #FFCE3E;
+    color: white;
+}
+// * ================ Scrool ================
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FFCE3E;
+    border-radius: 6px;
+}

@@ -1,0 +1,108 @@
+.section-6{
+    background-color: #f2f2f2;;
+    width: 100%;
+    max-height: max-content;
+    .section-6__contener{
+        padding: 100px;
+        .section-6__header{
+            width: 100%;
+            text-align: center;
+            p{
+                margin: 0;
+                font-size: 20px;
+            }
+            h1{
+                margin-bottom: 80px;
+                margin-top: 0;
+                font-size: 50px;
+                font-family: sans-serif;
+            }
+        }
+        .section-6__grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            gap: 10px ;
+            .section-6__grid-content{
+                width: 360px;
+                background-color: $white;
+                margin: 10px;
+                img{
+                    width: 80px;
+                    height: 81px;
+                    object-position: 35.49% 50%;
+                    // background-position: 35.49% 50%;
+                    margin: -28px auto 0 87px;
+                }
+                p{
+                    margin: 25px;
+                    font-size: 20px;
+                    line-height: 1.5;
+                }
+                h3{
+                    margin: 0 25px 0 25px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .section-6{
+        .section-6__contener {
+            padding: 50px;
+            .section-6__header h1 {
+                font-size: 40px;
+            }
+            .section-6__grid-content {
+                width: 280px;
+                img {
+                    width: 60px;
+                    height: 61px;
+                    margin: -22px auto 0 62px;
+                }
+                p {
+                    font-size: 18px;
+                    margin: 20px;
+                }
+                h3 {
+                    margin: 0 20px;
+                }
+            }
+        }
+    }
+}
+  
+// 991px ekranli kompyuter uchun media
+@media screen and (max-width: 1200px) {
+    .section-6{
+        .section-6__contener {
+            padding: 50px;
+            .section-6__header h1 {
+                font-size: 40px;
+            }
+            .section-6__grid-content {
+                width: 220px;
+                img {
+                    width: 60px;
+                    height: 61px;
+                    margin: -22px auto 0 62px;
+                }
+                p {
+                    font-size: 18px;
+                    margin: 20px;
+                }
+                h3 {
+                    margin: 0 20px;
+                }
+            }
+        }
+    }
+}
+
+// 768px ekranli kompyuter uchun media
+@media screen and (max-width: 768px) {
+    .section-6__grid {
+        grid-template-columns: auto;
+    }
+}
